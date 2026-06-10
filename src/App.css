@@ -1,0 +1,22 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.app__header {
+  margin-bottom: 1.5rem;
+}
+
+.app__header code {
+  background: #e4e9f2;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
