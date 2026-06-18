@@ -6,6 +6,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Medium base font size: scales all rem-based text up a bit */
+    font-size: 18px;
   }
 
   body {
